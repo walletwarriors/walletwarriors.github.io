@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WalletWarriors</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+	<link rel="stylesheet" href="css/custom.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/manifest.json">
+	<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="theme-color" content="#ffffff">
+  </head>
+  <body id="home" data-spy="scroll" data-target=".navbar" data-offset="100">
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container">
+      <a class="navbar-brand order-0 mr-0" id="logo" href="index.html">WalletWarriors</span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link" href="#giveaways">Giveaways <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#pastWinners">Past Winners</a>
+		  <!-- <a class="nav-item nav-link" href="#">MORE STUFF</a> -->
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- /navbar -->
+    
+  <!-- jumbotron -->
+  <div class="jumbotron jumbotron-fluid bg-info text-white vertical-center">
+    <div class="container text-sm-center">
+      <h1 class="display-1">WalletWarriors</h1>
+      <p class="lead">A Lineage 2 Revolution Clan on <b>Giran02</b></p><span class="fa-heart"></span>
+        <a class="btn btn-success btn-lg" href="#giveaways"><span class="far fa-credit-card"></span>&nbsp&nbspNext giveaway in... <div class="weeklyClock"></div></a>
+      </div>
+    </div>
+  </div> 
+  <!-- /jumbotron -->
+    
+  <!-- Introduction -->
+  <div class="container pt-4">
+	<div class="anchor" id="giveaways"></div>
+    <div class="row">
+      <div class="col-lg order-lg-2">
+        <h1 class="display-4 text-left text-muted">Gift Card Giveaway</h1>
+        <p class="lead">A fun way of rewarding the awesome members of our clan! <span class="fas fa-heart" id="logo-heart"></span></p>
+		
+		<div class="card-deck">
+		
+			<div class="card bg-light mb-3">
+			  <div class="card-header"><h4>Weekly Giveaway</h4></div>
+			  <div class="card-body">
+				<h5 class="card-title">$5 Google/Apple Gift Card</h5>
+				<p class="card-text">
+					<u><h6>Eligibility</h6></u>
+					<ul>
+					<li>Be a member of the clan
+					<li>Donated 75k Adena daily*
+					<li>Donated 1200 Proof of Bloods daily*
+					<li>Donated 600 Red Starstones daily*
+					</ul>
+					<i><font size="2em">*Must do in the past 14 days</font></i>
+				</p>
+				<u><h6>Submit Info</h6></u>
+				<p>
+				<form action="https://formspree.io/makotoniijima2018@gmail.com"method="POST">
+				<input type="hidden" name="_subject" value="$5 entry (FIVE DOLLARS)" />
+				  <div class="form-group">
+					<label for="inputUsername">Username:</label>
+					<input type="text" class="form-control" id="username" name="username">
+				  </div>
+				  <div class="form-group">
+					<label for="inputClanCode">Clan code:</label>
+					<input type="text" class="form-control clanCode" name="clanCode" oninput="clanCheck5(this)">
+					<small class="form-text text-muted">Code can be found in the clan notice in game.</small>
+				  </div>
+				  <button id="submit5" type="submit" class="btn btn-primary">Submit</button><span id="invalid5"></span>
+				</form>
+				</p>
+				<div class="card-footer">
+					<p class="card-text"><small class="text-muted">
+							Time to next giveaway:<div class="weeklyClock"></div>
+					</small></p>
+				</div>
+			  </div>
+			</div>
+			
+			<div class="card bg-light mb-3">
+			  <div class="card-header"><h4>Bi-Weekly Giveaway</h4></div>
+			  <div class="card-body">
+				<h5 class="card-title">$10 Google/Apple Gift Card</h5>
+				<p class="card-text">
+					<u><h6>Eligibility</h6></u>
+					<ul>
+					<li>Be a member of the clan
+					<li>Donated 75k Adena daily*
+					<li>Donated 1200 Proof of Bloods daily*
+					<li>Donated 600 Red Starstones daily*
+					</ul>
+					<i><font size="2em">*Must do in the past 14 days (can miss 1 day)</font></i>
+				</p>
+				<u><h6>Submit Info</h6></u>
+				<p>
+				<form action="https://formspree.io/makotoniijima2018@gmail.com"method="POST">
+				<input type="hidden" name="_subject" value="$10 entry (TEN DOLLARS)" />
+				  <div class="form-group">
+					<label for="inputUsername">Username:</label>
+					<input type="text" class="form-control" id="username" name="username">
+				  </div>
+				  <div class="form-group">
+					<label for="inputClanCode">Clan code:</label>
+					<input type="text" class="form-control clanCode" name="clanCode" oninput="clanCheck10(this)">
+					<small class="form-text text-muted">Can be found in the clan notice in game.</small>
+				  </div>
+				  <button id="submit10" type="submit" class="btn btn-primary">Submit</button><span id="invalid10"></span>
+				</form>
+				</p>
+				<div class="card-footer">
+					<p class="card-text"><small class="text-muted">
+							Time to next giveaway:<div id="biweeklyClock"></div>
+					</small></p>
+				</div>
+			  </div>
+			</div>
+			
+			<div class="card bg-light mb-3">
+			  <div class="card-header"><h4>Monthly</h4></div>
+			  <div class="card-body">
+				<h5 class="card-title">$25 Google/Apple Gift Card</h5>
+				<p class="card-text">
+					<u><h6>Eligibility</h6></u>
+					<ul>
+					<li>Be a member of the clan
+					<li>Donated 75k Adena daily*
+					<li>Donated 1200 Proof of Bloods daily*
+					<li>Donated 600 Red Starstones daily*
+					</ul>
+					<i><font size="2em">*Must do in the past 30 days (can miss 3 days)</font></i>
+				</p>
+				<u><h6>Submit Info</h6></u>
+				<p>
+				<form action="https://formspree.io/makotoniijima2018@gmail.com"method="POST">
+				<input type="hidden" name="_subject" value="$25 entry (TWENTY-FIVE DOLLARS)" />
+				  <div class="form-group">
+					<label for="inputUsername">Username:</label>
+					<input type="text" class="form-control" id="username" name="username">
+				  </div>
+				  <div class="form-group">
+					<label for="inputClanCode">Clan code:</label>
+					<input type="text" class="form-control clanCode" name="clanCode" oninput="clanCheck25(this)">
+					<small class="form-text text-muted">Can be found in the clan notice in game.</small>
+				  </div>
+				  <button id="submit25" type="submit" class="btn btn-primary">Submit</button><span id="invalid25"></span>
+				</form>
+				</p>
+				<div class="card-footer">
+					<p class="card-text"><small class="text-muted">
+							Time to next giveaway:<div id="monthlyClock"></div>
+					</small></p>
+				</div>
+			  </div>
+			</div>
+			
+		</div>
+		
+	<hr>
+	
+    <div class="row" id="pastWinners">
+		<div class="col-lg order-lg-2">
+			<h1 class="display-4 text-left text-muted">Past Winners</h1>
+			<p>None yet!</p>
+		</div>
+	</div>
+
+	</div>
+	</div>
+	
+    <hr id="footer-hr">
+    
+    <!-- footer -->
+    <div class="row py-3">
+      <div class="col-md-7">
+      
+        <ul class="nav">
+		  <li class="nav-item">
+			<a class="nav-link" href="https://play.google.com/store/apps/details?id=com.netmarble.lin2ws&hl=en" target="_blank"><span class="fab fa-google-play social"></span></a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="https://itunes.apple.com/ph/app/lineage2-revolution/id1200727466?mt=8" target="_blank"><span class="fab fa-apple social"></span></a>
+		  </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://twitter.com/lineage2_rev" target="_blank"><span class="fab fa-twitter social"></span></a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="https://www.facebook.com/OfficialLineage2Revolution" target="_blank"><span class="fab fa-facebook social"></span></a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="https://www.reddit.com/r/Lineage2Revolution/" target="_blank"><span class="fab fa-reddit social"></span></a>
+		  </li>
+        </ul>
+        
+      </div>
+      <div class="col-md text-md-right">
+        <small>&copy; WalletWarriors</small>
+      </div>
+    </div>
+    <!-- /footer -->
+    
+  </div>
+  </div>
+  <!-- ./container -->
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+	  src="https://code.jquery.com/jquery-3.2.1.min.js"
+	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+	<script src="js/jquery.countdown.js"></script>
+	<script src="js/custom.js"></script>
+	
+  </body>
+  
+</html>

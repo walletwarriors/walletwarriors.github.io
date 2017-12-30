@@ -1,0 +1,80 @@
+@font-face {
+	font-family: "Montserrat-SemiBold";
+	src: url("../fonts/Montserrat-SemiBold.otf") format("opentype");
+}
+
+.anchor {
+    padding-top: 80px;
+	margin-top: -80px;
+}
+
+.card-footer {
+	text-align: center;
+}
+
+ul {
+    padding-left:1rem;
+}​
+
+#logo {
+	font-family: "Montserrat-SemiBold";
+	font-size: 25px;
+}
+
+#logo-heart:hover{
+	color: #ED4337;
+}
+
+.jumbotron {
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),url("../images/dubai.jpg");
+	background-position: center top;
+	background-size: cover;
+/* 	padding-top: 10%;
+	padding-bottom: 10%; */
+	height: 100vh;
+}
+
+.vertical-center {
+	display: flex;
+	align-items: center;
+}
+
+#footer-hr {
+	margin-bottom: 0%;
+}
+
+.social {
+	font-size: 25px;
+	color: black;
+}
+
+.nav-item > a > .fa-twitter:hover {
+	color: #00aced;
+}
+
+.nav-item > a > .fa-facebook:hover {
+	color: #3b5998;
+}
+
+..nav-item > a > .fa-twitter:hover {
+	color: #00aced;
+}
+
+.nav-item > a > .fa-google-play:hover {
+	color: #3cba54;
+}
+
+.nav-item > a > .fa-apple:hover {
+	color: #999999;
+}
+
+.nav-item > a > .fa-reddit:hover {
+	color: #FF5700;
+}
+
+.btn:not([disabled]):not(.disabled) {
+    cursor: pointer;
+}
